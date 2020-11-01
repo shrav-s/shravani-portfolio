@@ -2,8 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-body {
+.hero-img {
     height: 100vh;
     background-image: url("images/background_img2.jpg");
     background-size: cover;
@@ -11,12 +12,8 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}   
+    }   
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
 header {
     width: 100%;
     height: 10vh;
@@ -25,14 +22,50 @@ header {
 .nav-links {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
-    padding-top: 1em;
+    padding-top: 2em;
 }
 .nav-link {
     color: black;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
+    transition: all ease 0.5s;
 }
-.Presentation{
-    dsiplay: flex;
+.nav-link:hover{
+    background-color: #a290d1; 
 }
+.introduction {
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: purple;
+    font-size: 35px;   
+}
+.intro-text {
+}
+.media-tags {
+    height: 40%;
+    font-size: xxx-large;
+}
+.media-tags a {
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    margin: 20px;
+    box-shadow: 1px 4px 2px 2px ##dbd7da;
+    text-align: center;
+    line-height: 110px; 
+}
+.media-tags a i {
+    transition: all 0.3s linear;
+}
+.media-tags a:hover i{
+    transform: scale(1.4);
+}
+
