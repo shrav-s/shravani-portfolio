@@ -47,10 +47,15 @@ header {
     font-size: 35px;   
 }
 .intro-text {
+    width:90%;
+    height: 70vh;
 }
 .media-tags {
-    height: 40%;
+    width: 90%;
+    height: 20vh;
     font-size: xxx-large;
+    display: flex;
+    justify-content: center;
 }
 .media-tags a {
     height: 100px;
@@ -58,7 +63,7 @@ header {
     background-color: #f5f6fa;
     border-radius: 50px;
     margin: 20px;
-    box-shadow: 1px 4px 2px 2px ##dbd7da;
+    box-shadow: 1px 4px 2px 2px #dbd7da;
     text-align: center;
     line-height: 110px; 
 }
@@ -68,4 +73,12 @@ header {
 .media-tags a:hover i{
     transform: scale(1.4);
 }
-
+@media only screen and (min-width: 600px) {
+    .media-tags {
+        justify-content: flex-end;
+    }
+    .introduction {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+}
