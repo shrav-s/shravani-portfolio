@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
 .hero-img {
@@ -43,12 +44,19 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    color: purple;
-    font-size: 35px;   
+    color: purple; 
 }
 .intro-text {
     width:90%;
     height: 70vh;
+}
+.intro-text h1{
+    font-size: 40px;
+    font-style: italic;
+    padding: 10px 10px;
+}
+.intro-text h3 {
+    font-size:35px;
 }
 .media-tags {
     width: 90%;
@@ -72,6 +80,20 @@ header {
 }
 .media-tags a:hover i{
     transform: scale(1.4);
+}
+.button1 {
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 50px;
+    color: #f5f6fa;
+    background-image: linear-gradient(to right, #d8b7d1 10%,#c1b1df 80%);
+    border: 2px solid;
+    box-shadow: 0 10px 30px rgba(122, 88, 233, 0.3);
 }
 @media only screen and (min-width: 600px) {
     .media-tags {
