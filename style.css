@@ -97,10 +97,7 @@ header {
     border: 2px solid;
     box-shadow: 0 10px 30px rgba(122, 88, 233, 0.3);
 }
-.blog-img{
-    display:block;
-    float:left;  
-}
+
 .card{
     height: auto;
     width: 99%;
@@ -108,9 +105,27 @@ header {
     flex-wrap: wrap;
     margin: 0px;
     padding: 10px;
-    overflow:auto;
+    overflow:visible;
     text-align: center;
     background: linear-gradient(288deg, rgba(238,174,202) 40%, rgba(148,178,233,0.036852240896358524) 100%);
+}
+.card img {
+    height: 99%;
+    max-width: 99%;
+    display: block;
+    margin: auto;
+    float:none;
+}
+.card p {
+    display: block;
+    float: none;
+    color: purple;
+    font-weight: 700; 
+}
+.card figcaption {
+    text-align: center;
+    display:block;
+    color: purple; 
 }
 .headings {
     text-align: center;
@@ -119,18 +134,9 @@ header {
     color: purple;
 
 }
-.blog_para {
-    display: block;
-    float: right;
-    color: purple;
-    font-weight: 700; 
-}
+
     
-.figcaption {
-    text-align: justify;
-    display:block;
-    color: purple;
-}
+
 @media only screen and (min-width: 600px) {
     .media-tags {
         justify-content: flex-end;
@@ -140,4 +146,57 @@ header {
         justify-content: flex-end;
     }
 
+
 }
+@media only screen and (min-width: 800px) {
+    .card figure{
+      float:left ;
+            img {
+            height: 99%;
+            max-width: 50%;
+            min-width: 25%;
+            display: block;
+            margin: auto;
+            float:left;
+            outline: solid 1px black;
+            }
+            figcaption {
+                text-align: center;
+                width: 25%;
+            }
+    }
+    .card
+    {
+        display: inline-block;
+       
+    }
+    .card p {
+        display: block;
+        float: left;
+        color: purple;
+        font-weight: 700;
+        min-width: 50%;
+        max-width: 100%;
+    }
+  /* .card img {
+    height: 99%;
+    max-width: 50%;
+    min-width: 25%;
+    display: block;
+    margin: auto;
+    float:left;
+    outline: solid 1px black;
+
+   }
+   .card figcaption {
+     text-align: center;
+     width: 25%;
+
+  } */
+
+}
+
+
+
+
+
