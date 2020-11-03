@@ -97,21 +97,11 @@ header {
     border: 2px solid;
     box-shadow: 0 10px 30px rgba(122, 88, 233, 0.3);
 }
-.card{
-    height: auto;
-    width: 90%;
-    border: 2px solid white;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 10px;
-    overflow: hidden;
-    text-align: center;   
-}
 .blog-img{
     display:block;
     float:left;  
 }
-.card1{
+.card{
     height: auto;
     width: 99%;
     border: 2px solid white;
@@ -149,5 +139,5 @@ header {
         flex-direction: column-reverse;
         justify-content: flex-end;
     }
-    
+
 }
