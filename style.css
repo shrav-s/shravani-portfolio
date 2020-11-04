@@ -37,7 +37,17 @@ header {
     background-position: center;
     display: flex;
     flex-direction: column;
-}  
+} 
+
+.hero-img-exp {
+    height: auto;
+    background-image: url("images/background_img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+} 
 .introduction {
     height: 90vh;
     width: 90%;
@@ -84,6 +94,7 @@ header {
     transform: scale(1.4);
 }
 .button1 {
+    float:right;
     font-weight: 900;
     font-size: 22px;
     text-align: center;
@@ -98,6 +109,23 @@ header {
     box-shadow: 0 10px 30px rgba(122, 88, 233, 0.3);
 }
 
+.card-exp{
+    height: auto;
+    width: 99%;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 10px;
+    overflow:hidden;
+    text-align: center;
+
+}
+.card-exp p {
+    display: block;
+    float: none;
+    color: black;
+    font-weight: 700;
+    background-color: whitesmoke; 
+}
 .card{
     height: auto;
     width: 99%;
@@ -134,7 +162,49 @@ header {
     color: purple;
 
 }
+/*about page css styling*/
+.headings-about {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    display: block;
+    color: purple;
+    display: inline-flex;
+    justify-content: center;
+} 
+.headings-exp {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    display: block;
+    color: purple;
+    display: inline-flex;
+    justify-content: center;
+}
 
+.content {
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: purple; 
+}
+.content h3{
+    font-size: 1.5em;
+}
+.img{
+    border-radius: 5px;
+}
+.content p {
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+/*about me styling ends*/
     
 
 @media only screen and (min-width: 600px) {
@@ -171,13 +241,52 @@ header {
        
     }
     .card p {
-        display: block;
+        display: contents;
         float: left;
         color: purple;
         font-weight: 700;
         min-width: 50%;
         max-width: 100%;
     }
+
+    .card-exp figure{
+        float: left;
+           img {
+              height: 99%;
+              max-width: 10%;
+              min-width: 10%;
+              display: block;
+              margin: auto;
+              float:left;
+              outline: solid 1px black;
+              }
+              figcaption {
+                  text-align: center;
+                  width: 25%;
+              }
+      }
+      .card-exp
+      {
+          display: inline-block;
+         
+      }
+      .card-exp p {
+          display: contents;
+          float: left;
+          background-color: whitesmoke; 
+          color: black;
+          font-weight: 700;
+          min-width: 50%;
+          max-width: 100%;
+      }
+  
+
+
+
+
+
+
+
   /* .card img {
     height: 99%;
     max-width: 50%;
