@@ -1,0 +1,113 @@
+commit 7c7da73db931089866e154df71cde8d5339f8f19
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Thu Nov 5 10:41:43 2020 +1100
+
+    minor content chages in about me page Final Draft 2.0
+
+commit 72f6b2756caa6cafd10a500515928b15205f5610
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Thu Nov 5 00:14:39 2020 +1100
+
+    Final Draft 2.0
+
+commit 3e734d9d92b585edfc3530fda2aa6cc0e21bb439
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Wed Nov 4 16:24:40 2020 +1100
+
+    Final Draft V1.0
+
+commit 7e2af0e2ab31d2626b2e2b4183d921da64279040
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Tue Nov 3 21:33:08 2020 +1100
+
+    changes made to blog to make it responsive
+
+commit b735c6533f94792a39bce5ef5bdb5d2d7a387e4f
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Tue Nov 3 21:19:54 2020 +1100
+
+    blog page changes complete
+
+commit 404c130e2eef8772746cb744a86ccbf8184d2dd4
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Tue Nov 3 17:43:31 2020 +1100
+
+    minor changes in blog page
+
+commit b22b9a8fb4ac31a3eb77632669799e7d82b5d47f
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Tue Nov 3 17:30:43 2020 +1100
+
+    added content and styled log page
+
+commit 6d6fc942fc2909784f22db07bbc63a98df0f3d38
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Tue Nov 3 17:29:07 2020 +1100
+
+    added content and styled log page
+
+commit 439de688c45fb99531a9e2554bcf41cd28a1abce
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Mon Nov 2 21:24:35 2020 +1100
+
+    created form html
+
+commit 123836e097f0f58db985453d7d8ad844250bfb58
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Mon Nov 2 21:22:17 2020 +1100
+
+    added content to blog page
+
+commit 46aac97ed8ca58296deecb20678aa8325f4699c5
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Mon Nov 2 21:13:30 2020 +1100
+
+    added content to experience page
+
+commit fde635a4a77ac3f624a869d85063d88cb153e64a
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Mon Nov 2 20:58:28 2020 +1100
+
+    added content to the about me page
+
+commit 19b47d4358f713a6aa58e9cc89f271947a075713
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Mon Nov 2 20:43:23 2020 +1100
+
+    added button class in style sheet
+
+commit 6e61a4037c9164619fd6d62e21240a33566f0fd9
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Mon Nov 2 12:26:07 2020 +1100
+
+    corrected spelling mistake of class item
+
+commit 9906531158d64490bc598b110cb1f1e88ddff5d7
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Mon Nov 2 11:35:56 2020 +1100
+
+    added @media to make home responsive
+
+commit 1861b5c8ce9176ffd874844d8b16e8b6e41da125
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Mon Nov 2 02:44:38 2020 +1100
+
+    organised home and stylesheet
+
+commit ba4ee30ba71aad1bea2585990fb15e27e61e1af8
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Sun Nov 1 16:43:44 2020 +1100
+
+    changes made to navigation bar and content added to home page
+
+commit 06fc0f0f783fefd2abd170ed6bc690e43560de09
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Sun Nov 1 10:57:23 2020 +1100
+
+    html borders has been set in css
+
+commit 0496ffff64df426a5e42a1600ab838b53c78863c
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Sun Nov 1 01:41:49 2020 +1100
+
+    created HTML pages with background image
