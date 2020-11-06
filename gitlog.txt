@@ -1,3 +1,39 @@
+commit 02254d331aecc0e2b29d3e128ad97aa9db7e95a4
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Fri Nov 6 13:59:21 2020 +1100
+
+    generated SRI and linked to all pages
+
+commit 711d45cd2c62d7d47ac8a8c0df2e8cc4fc719206
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Fri Nov 6 13:25:30 2020 +1100
+
+    hover effect to nav bar
+
+commit edf3a84a3cb8ecee2c3097326bc4ae956791d53f
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Thu Nov 5 19:05:09 2020 +1100
+
+    indentation for all pages
+
+commit e52e6815150650f6d719f3611e1a50f5fb80dcbe
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Thu Nov 5 18:44:21 2020 +1100
+
+    added SRI integrity tag to linke style.css to all pages
+
+commit 06c73101d34512ba268b8887cb04865ceae725fd
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Thu Nov 5 13:25:44 2020 +1100
+
+    validated files
+
+commit 78d5cf5753882e0ed6a6bbe544593e4132bca8d6
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Thu Nov 5 11:36:26 2020 +1100
+
+    added gitlog.txt to the final version 2.0
+
 commit 7c7da73db931089866e154df71cde8d5339f8f19
 Author: shrav-s <shravani.b3@gmail.com>
 Date:   Thu Nov 5 10:41:43 2020 +1100
