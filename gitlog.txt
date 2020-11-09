@@ -1,3 +1,15 @@
+commit 66dbee35106659415b031d5014e5713f8e7d4a02
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Tue Nov 10 01:50:21 2020 +1100
+
+    cleaned css code
+
+commit 9765a0a4e9431de95f5030da6dbcb07d33b57823
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Fri Nov 6 14:04:02 2020 +1100
+
+    generated gitlog.txt
+
 commit 02254d331aecc0e2b29d3e128ad97aa9db7e95a4
 Author: shrav-s <shravani.b3@gmail.com>
 Date:   Fri Nov 6 13:59:21 2020 +1100
