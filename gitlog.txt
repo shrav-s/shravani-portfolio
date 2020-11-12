@@ -1,3 +1,21 @@
+commit d5d31c745f1778e1a2b5aadee8a960989767f49e
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Thu Nov 12 23:38:04 2020 +1100
+
+    generated SRI
+
+commit b03a94489262a1a756dc766b02a61eb6ece1bb73
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Thu Nov 12 23:32:44 2020 +1100
+
+    changes made to make website responsive
+
+commit 6d54ddf26500cb00b95c0838fc30540765f058c2
+Author: shrav-s <shravani.b3@gmail.com>
+Date:   Tue Nov 10 02:13:40 2020 +1100
+
+    added SRI key to all the pages and generated gitlog.txt
+
 commit 66dbee35106659415b031d5014e5713f8e7d4a02
 Author: shrav-s <shravani.b3@gmail.com>
 Date:   Tue Nov 10 01:50:21 2020 +1100
