@@ -4,12 +4,13 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Poppins, sans-serif;    
+    /*font-family: Poppins, sans-serif;*/
+    font-family: 'Patrick Hand', cursive, PT Sans, Ubuntu,sans-serif;      
 }
 /*website background image styling*/
 body{
     height: auto;
-    background-image: url("images/background_img_stars.jpeg"), linear-gradient(315deg, #7ed6df 0%, #000000 74%);
+    background-image: url(images/background_img_road.jpg), linear-gradient(315deg, #7ed6df 0%, #000000 74%);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -24,24 +25,23 @@ body{
     align-items: center;
     list-style: none;
     padding: 5px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .nav-links a {
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 1em;
     transition: all ease 0.5s;
 }
 .nav-links a:hover{
-    background-color:white; 
-    border: solid yellow;
+    border: solid rgb(0, 217, 255);
     border-radius: 15px;
-    color: black;
+    color: white;
     transform: scale(1.2);
 }
 /*heading of all pages*/
 .headings {
     text-align: center;
-    font-size: 20px;
+    font-size: 1rem;
     display: block;
 }
 /*styling for index/home.html page*/
@@ -56,14 +56,17 @@ body{
 .intro-text {
     width:90%;
     height: auto;
+    background-color: rgb(4, 24, 31, 0.8);
 }
 .intro-text h1{
-    font-size: 40px;
-    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 500;
     padding: 10px 10px;
 }
 .intro-text h3 {
     font-size:35px;
+    font-weight: 400;
+    font-style: italic;
 }
 .media-tags {                         /*social media icons styling*/
     width: 90%;
@@ -73,15 +76,16 @@ body{
     justify-content: center;
 }
 .media-tags a {
-    height: 75px;
-    width: 75px;
-    background-color: #f5f6fa;
+    height: 60px;
+    width: 60px;
+    /* background-color: #f5f6fa; */
     border-radius: 50px;
+    color: white;
     margin: 20px;
     text-align: center;
-    line-height: 75px;
-    box-shadow: 1px 4px 2px 2px #dbd7da;
-    transition: all 0.3s linear; 
+    line-height: 60px;
+    box-shadow: 1px 4px 20px 8px #ff476c;
+    transition: all 0.3s linear;
 }
 .media-tags a:hover {
     transform: scale(1.2);
@@ -89,7 +93,7 @@ body{
 /*styling of about me page*/
 .content {
     height: 100vh;
-    width: 90%;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: flex-start;
@@ -97,29 +101,31 @@ body{
     flex-direction: column;
 }
 .content h3{
-    font-size: 2em;
+    font-size: 1.5em;
+    font-weight: 500;
     margin-top: 10px;
 }
 .content img{
-    border: 2px solid white;
-    border-radius: 25px;
+    border: 2px solid lightcyan;
+    border-radius: 50%;
 }
 .content p {
-    font-weight: 600;
-    font-size: 1em;
+    font-size: 15px;
     margin-top: 10px;
-    text-align: justify;
+    text-align: left;
+    background-color: rgb(4, 24, 31, 0.5);
 }
 /*styling for experience page*/
 .card-exp{
-    height: auto;
-    width: 99%;
+    width: 70%;
     flex-wrap: wrap;
-    margin: 0px;
+    margin: auto;
     padding: 10px;
-    overflow:hidden;
+    overflow: visible;
     text-align: center;
     font-size: 1em;
+    box-shadow: 1px 5px 10px white;
+    background-color: rgb(4, 24, 31, 0.5);
 }
 .card-exp img{
     border:2px solid white;
@@ -131,12 +137,17 @@ body{
     display: list-item;
     list-style-position: inside;
     text-align: left;
-    font-weight: 600;
+   }
+   .exp-icon{
+    height: 48px;
+    width: 48px;
+    justify-content: center;
+    display: inline-flex;
 }
 .resume {                              /*resume & button styling*/
     float: right;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 1rem;
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -145,49 +156,53 @@ body{
     color: #f5f6fa;
     border: 2px solid;
     box-shadow: 0 10px 10px rgba(122, 88, 233, 0.3);
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
-.button:hover {
+.resume:hover {
     transform: scale(1.1);
     background-color: whitesmoke;
     color: black;
-    border-color: yellow;
+    border-color: rgb(0, 217, 255);
     border-radius: 15px;
 }
 /*styling for blog page*/
 .card{
-    height: auto;
-    width: 100%;
-    border: 2px solid white;
+    width: 95%;
+    box-shadow: 1px 5px 10px white;
     flex-wrap: wrap;
     margin: auto;
     padding: 10px;
     overflow:visible;
     text-align: center;
+    background-color: rgb(4, 24, 31, 0.5);
 }
 .card img {
-    height: 99%;
-    max-width: 99%;
-    display: block;
-    margin: auto;
-    float:none;
-    border: 2px solid white;
+    height:auto;
+    width:90%;
+}
+.card img:hover {
+    transform: rotateY(180deg);
+}
+.card :focus {
+    outline: none;
+   
+}
+.paragraph{
+    width:70%;
 }
 .card p {
-    display: block;
-    float: none;
-    font-weight: 700; 
+    text-align: justify;
 }
 .card figcaption {
     text-align: center;
     display:block;
 }
+#blog-summary{
+    color:#ee6d8f;
+}
 @media only screen and (min-width: 600px) {
     .media-tags {                                   /*home page responsive*/
         justify-content: flex-end;
-    }
-    .nav-links a{
-        font-size: 20px;
     }
     .introduction {
         flex-direction: column-reverse;             
@@ -198,38 +213,33 @@ body{
     }
 }
 @media only screen and (min-width: 800px) {
-    .content img{
-        width: 300px;
-        height: 300px;
-    }
-    .card figure{                                      /*syling blog page @min-width 800px*/
+   .card figure{                                      /*styling blog page @min-width 800px*/
       float:left ;                 
+      width: 30%
     }
-    .card figcaption {
-        width: 25%;
-    }
-   .card img {
+     .card p {
+        text-align: center;
+    } 
+      .card img {
         max-width: 100%;
         min-width: 25%;
         float:left;
         border: solid 1px white;
         }
+        main{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            } 
     .card {
-        display: inline-block;       
+        display: inline-block;
+        width: 70%;         
     }
-    .card p {
-        display: contents;
+       .card-exp figure{                                   /*styling experience page @min-width 800px*/
         float: left;
-        min-width: 50%;
-        max-width: 100%;
-    }
-    .card-exp figure{                                   /*styling experience page @min-width 800px*/
-        float: left;      
+        width: 30%;        
       }
       .card-exp img {
-        height: 99%;
-        max-width: 90%;
-        min-width: 10%;
         display: block;
         margin: auto;
         float:left;
@@ -244,7 +254,7 @@ body{
       }
       .card-exp p {
           display: list-item;
-          list-style-position: outside;
+          list-style-position: inside;
           text-align: left;          
           min-width: 50%;
           max-width: 100%;
