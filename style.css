@@ -10,7 +10,7 @@
 /*website background image styling*/
 body{
     height: auto;
-    background-image: url(images/background_img_road.jpg), linear-gradient(315deg, #7ed6df 0%, #000000 74%);
+    background-image: #15222e;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
