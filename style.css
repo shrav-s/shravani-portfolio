@@ -4,18 +4,30 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    /*font-family: Poppins, sans-serif;*/
-    font-family: 'Patrick Hand', cursive, PT Sans, Ubuntu,sans-serif;      
+    font-family: 'Patrick Hand','Open Sans', sans-serif, 'PT Sans', 'Times New Roman';
+    color:white;
+    font-weight:normal;     
 }
 /*website background image styling*/
 body{
     height: auto;
     background-color: #15222e;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     background-position: center;
     color: whitesmoke;      
+}
+h2 {
+    color: lightblue;
+}
+h5 {
+    color: lightblue;
+    font-size: 1em;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-decoration: none;
+    margin: 15px;
 }
 /*nav bar syling*/
 .nav-links {
@@ -33,7 +45,7 @@ body{
     transition: all ease 0.5s;
 }
 .nav-links a:hover{
-    border: solid rgb(0, 217, 255);
+    border: solid  #dad2f7;
     border-radius: 15px;
     color: white;
     transform: scale(1.2);
@@ -43,53 +55,49 @@ body{
     text-align: center;
     font-size: 1rem;
     display: block;
+    letter-spacing: 0.1em;
 }
 /*styling for index/home.html page*/
 .introduction {
-    height: 100vh;
-    width: 90%;
-    margin-top:20px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-.intro-text {
-    width:90%;
-    height: auto;
-    background-color: rgb(4, 24, 31, 0.8);
-}
-.intro-text h1{
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding: 10px 10px;
-}
-.intro-text h3 {
-    font-size:35px;
-    font-weight: 400;
-    font-style: italic;
-}
-.media-tags {                         /*social media icons styling*/
-    width: 90%;
-    height: auto;
-    font-size: 2em;
+    height: 90vh;
+    margin: 10px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-text {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.intro-text h1{
+    font-size: 3.5em;
+    letter-spacing: 0.1em;
+}
+.intro-text h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+}
+/*social media icons styling*/
+.media-tags {                         
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
 }
 .media-tags a {
-    height: 60px;
-    width: 60px;
-    /* background-color: #f5f6fa; */
-    border-radius: 50px;
-    color: white;
-    margin: 20px;
-    text-align: center;
-    line-height: 60px;
-    box-shadow: 1px 4px 20px 8px #ff476c;
+    width: 20px;
+    margin: 10px;
     transition: all 0.3s linear;
 }
 .media-tags a:hover {
     transform: scale(1.2);
 }
+
 /*styling of about me page*/
 .content {
     height: 100vh;
