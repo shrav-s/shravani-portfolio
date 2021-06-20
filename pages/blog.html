@@ -1,175 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--google fonts-->
-    <!--<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />-->
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Patrick+Hand&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <!--link to the stylesheet-->
-    <link  rel="stylesheet" href="../style.css" />
-    <title>My Portfolio</title>
-    <!--social media icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-        crossorigin="anonymous" />
-    <!--contact me form-->
-    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-    <script>
-        window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
-        formbutton("create", { action: "https://formspree.io/f/meqpkzgp" })
-    </script>
-</head>
-<body>
-    <!--background image-->
-    <header>      
-        <nav>
-            <!--navigation section-->
-            <ul class="nav-links">
-                <li><a class="nav-link" href="../index.html">Home</a></li>
-                <li><a class="nav-link" href="./about.html">About me</a></li>
-                <li><a class="nav-link" href="./experience.html">Experience</a></li>
-                <li><a class="nav-link" href="./blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>        
-        <div class="headings">
-                        <!--heading-->
-            <h2>My Blog Page Listing</h2>        
-        </div>
-        <br>
-        <article class="card">
-            <!--section blog 1-->
-            <div>
-                                <!--sub-heading-->
-                <h3>My time in Melbourne</h3>
-                published <time datetime="2020-10-10 12:00">October 10th, 2020</time>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Patrick+Hand&family=Ubuntu:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+            crossorigin="anonymous" />
+        <link  rel="stylesheet" href="../style.css" />
+        <title>My Portfolio</title>
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script>
+            window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+            formbutton("create", { action: "https://formspree.io/f/meqpkzgp", styles: {button:{background: "white", fill:"#036c99", bottom:"40px",right:"-20px"}} })
+    
+        </script>
+    </head>
+    <body>
+        <header>      
+            <nav>
+                <!--navigation section-->
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="../index.html">Home</a></li>
+                    <li><a class="nav-link" href="./about.html">About me</a></li>
+                    <li><a class="nav-link" href="./experience.html">Resume</a></li>
+                    <li><a class="nav-link" href="./blog.html">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class='projects-box'>        
+            <div class="headings">
+                <h2>Projects</h2>        
             </div>
+            <div class="proj-content">
+                <article class="card">
+                    <div class="card-text">
+                        <h2>Callback Cats</h2><P>Callback Cats is the ultimate dating app for cats! </P>
+                        <p>Call Back Cats gives fur babies the opportunity to make new friends using our cat match technology! </p>
+                        <p>Built in collboration with other developers for Hackathon at Coder Academy. </p>
+                        <div class="tech-stack">
+                            <!-- <p>Tech stack:</p>  -->
+                            <img src="../images/react_icon.png" alt="react logo"/>
+                            <img src="../images/nodejs_icon.png" alt="node logo"/>
+                            <img src="../images/firebase_icon.png" alt="firebase logo"/>
+                            <img src="../images/css_icon.png" alt="css logo"/>
+                            <img src="../images/html_icon.png" alt="html logo" /> 
+                        </div>
+                        <div>
+                            <a href="https://github.com/ryanTavcar/callback-cats" target="_blank">View Code</a>
+                            <a href="https://callback-cats-2021.web.app/" target="_blank">Live</a>
+                        </div>
+                        <br>
+                    </div>
+                    <div>
+                    <a href="https://github.com/ryanTavcar/callback-cats" target="_blank">          
+                    <img src="../images/callback2.png">
+                    </a> 
+                    </div>    
+                </article>
+                <article class="card">
+                    <div class="card-text">
+                        <h2>Decoro</h2>
+                        <!--paragraph-->
+                        <P>A full stack two-sided marketplace application, for Home Decor items.</P>
+                        <p>Main features include  Authentication and Authorisation, Secure payment system with Stripe, Responsive design</p>
+                        <div class="tech-stack">
+                            <img src="../images/rails_icon.png" alt="rails logo"/>
+                            <img src="../images/postgresql_icon.png" alt="postgresql logo"/>
+                            <img src="../images/heroku_icon.png" alt="heroku logo"/>
+                            <img src="../images/Bootstrap_icon.png" alt="Bootstrap logo"/>
+                            <img src="../images/stripe_icon.png" alt="stripe logo"/>
+                            <img src="../images/amazons3_icon.png" alt="amazon S3logo"/> 
+                            <img src="../images/css_icon.png" alt="css logo"/>
+                            <img src="../images/html_icon.png" alt="html logo"/> 
+                        </div>
+                        <div>
+                            <a href="https://github.com/shrav-s/Decoro" target="_blank">View Code</a>
+                            <a href="https://decoro-app.herokuapp.com/" target="_blank">Live</a>
+                        </div>
+                        <br>
+                    </div>
+                    <div>
+                    <a href="https://github.com/shrav-s/Decoro" target="_blank">          
+                    <img src="../images/Decoro.png">
+                    </a> 
+                    </div>    
+                </article>
             <br>
-            <!--fig section-->
-            <figure>
-                <!--image link-->                
-                <img src="../images\buildings_goldenhour.jpg" alt="assorted buildings during golden hour" />
-                <figcaption class="figcaption"><em>Melbourne city</em></figcaption>
-            </figure>
-            <br>
-            <div>
-                <!--paragraph-->
-                <P>It's been 5 good years since I have moved to Melbourne city. The city is very welcoming, and
-                    surprises me everyday with it's beauty and culture.</P>
+            <article class="card">            
+                <div>
+                    <h3>Art time</h3>
+                    published <time datetime="2020-10-12 12:00">October 12th, 2020</time>
+                </div>
+                <br>
+                <figure>
+                    <!--figure section-->                
+                    <img src="../images/blog_img.jpg" alt="assorted colour paints" />
+                    <!--image link-->                
+                    <figcaption class="figcaption"><em>Melbourne city</em></figcaption>
+                </figure>
+                <br>
+                <div>
+                    <!--paragraph-->
+                    <P>This is my third blog.This is my third blog.This is my third blog.This is my third blog.This is my
+                        third blog.This is my third blog.This is my third blog.This is my third blog.This is my third blog. This is my third blog.This is my third blog.This is my third blog.This is my third blog.This is my third blog.This is my third blog.This is my third blog.
+                    </P>
                     <details>
                         <summary id="blog-summary">Read more</summary>
                     <p>Eius saperet pri ei. Vim case erat deleniti cu, numquam signiferumque ei ius. Vel omnes mandamus consectetuer ad. Ne tollit feugait adipisci vis. Ne posse gloriatur his, vide impedit accusam cum ea.</p>
                     <p>At nec diceret mnesarchum referrentur, quo suas noster atomorum no. Ea reque elaboraret duo. Vis diam aperiri malorum in. Adhuc dicta facilisis ea nec. In sed error movet disputationi, tibique ocurreret torquatos ne cum, ei cum tincidunt voluptatibus</p>
                 </details>
-            </div>
-        </article>
-        <br>
-        <article class="card">
-            <div>
-                 <!--sub-heading-->
-                <h3>Busy times</h3>               
-                published <time datetime="2020-11-11 12:00">October 11th, 2020</time>
-            </div>
+                </div>
+            </article>
             <br>
-            <figure>
-                <!--image link-->
-                <img src="../images\busy-hour.jpg" alt="group of people walking on the streets"/>                
-                <figcaption class="figcaption"><em>Melbourne city</em></figcaption>
-            </figure>
+            <article class="card">            
+                <div>
+                    <!--sub-heading-->
+                    <h3>Visit to Art Gallery</h3>                
+                    published <time datetime="2020-10-13 12:00">October 13th, 2020</time>
+                </div>
+                <br>
+                <!--fig section-->
+                <figure>
+                    <!--image link-->
+                    <img src="../images/blog_img4.jpg" alt="Red, Blue and White flower painting" />                
+                    <figcaption class="figcaption"><em>Melbourne city</em></figcaption>
+                </figure>
+                <br>
+                <div>
+                    <!--paragraph-->
+                    <P>This is my fourth blog.This is my fourth blog.This is my fourth blog.This is my fourth blog.This is
+                        my fourth blog.This is my fourth blog.This is my fourth blog.This is my fourth blog.This is my
+                        fourth blog.This is my fourth blog.This is my fourth blog.This is my fourth blog.This is my fourth blog.</P>
+                        <details>
+                            <summary id="blog-summary">Read more</summary>
+                        <p>Eius saperet pri ei. Vim case erat deleniti cu, numquam signiferumque ei ius. Vel omnes mandamus consectetuer ad. Ne tollit feugait adipisci vis. Ne posse gloriatur his, vide impedit accusam cum ea.</p>
+                        <p>At nec diceret mnesarchum referrentur, quo suas noster atomorum no. Ea reque elaboraret duo. Vis diam aperiri malorum in. Adhuc dicta facilisis ea nec. In sed error movet disputationi, tibique ocurreret torquatos ne cum, ei cum tincidunt voluptatibus</p>
+                        
+                    </details>
+                </div>
+            </article>
             <br>
-            <div>
-                <!--paragraph-->
-                <P>This is my second blog.This is my second blog.This is my second blog.This is my second blog.This is
-                    my second blog.This is my second blog.This is my second blog.This is my second blog.This is my second blog.This is my second blog.This is my second blog.This is my second blog.This is my second blog.This is my second blog.</P>
-                    <details>
-                        <summary id="blog-summary">Read more</summary>
-                    <p>Eius saperet pri ei. Vim case erat deleniti cu, numquam signiferumque ei ius. Vel omnes mandamus consectetuer ad. Ne tollit feugait adipisci vis. Ne posse gloriatur his, vide impedit accusam cum ea.</p>
-                    <p>At nec diceret mnesarchum referrentur, quo suas noster atomorum no. Ea reque elaboraret duo. Vis diam aperiri malorum in. Adhuc dicta facilisis ea nec. In sed error movet disputationi, tibique ocurreret torquatos ne cum, ei cum tincidunt voluptatibus</p>
-                </details>
-            </div>
-        </article>
-        <br>
-        <article class="card">            
-            <div>
-                <h3>Art time</h3>
-                published <time datetime="2020-10-12 12:00">October 12th, 2020</time>
-            </div>
-            <br>
-            <figure>
-                <!--figure section-->                
-                <img src="../images/blog_img.jpg" alt="assorted colour paints" />
-                <!--image link-->                
-                <figcaption class="figcaption"><em>Melbourne city</em></figcaption>
-            </figure>
-            <br>
-            <div>
-                <!--paragraph-->
-                <P>This is my third blog.This is my third blog.This is my third blog.This is my third blog.This is my
-                    third blog.This is my third blog.This is my third blog.This is my third blog.This is my third blog. This is my third blog.This is my third blog.This is my third blog.This is my third blog.This is my third blog.This is my third blog.This is my third blog.
-                </P>
-                <details>
-                    <summary id="blog-summary">Read more</summary>
-                <p>Eius saperet pri ei. Vim case erat deleniti cu, numquam signiferumque ei ius. Vel omnes mandamus consectetuer ad. Ne tollit feugait adipisci vis. Ne posse gloriatur his, vide impedit accusam cum ea.</p>
-                <p>At nec diceret mnesarchum referrentur, quo suas noster atomorum no. Ea reque elaboraret duo. Vis diam aperiri malorum in. Adhuc dicta facilisis ea nec. In sed error movet disputationi, tibique ocurreret torquatos ne cum, ei cum tincidunt voluptatibus</p>
-            </details>
-            </div>
-        </article>
-        <br>
-        <article class="card">            
-            <div>
-                <!--sub-heading-->
-                <h3>Visit to Art Gallery</h3>                
-                published <time datetime="2020-10-13 12:00">October 13th, 2020</time>
-            </div>
-            <br>
-            <!--fig section-->
-            <figure>
-                <!--image link-->
-                <img src="../images/blog_img4.jpg" alt="Red, Blue and White flower painting" />                
-                <figcaption class="figcaption"><em>Melbourne city</em></figcaption>
-            </figure>
-            <br>
-            <div>
-                <!--paragraph-->
-                <P>This is my fourth blog.This is my fourth blog.This is my fourth blog.This is my fourth blog.This is
-                    my fourth blog.This is my fourth blog.This is my fourth blog.This is my fourth blog.This is my
-                    fourth blog.This is my fourth blog.This is my fourth blog.This is my fourth blog.This is my fourth blog.</P>
-                    <details>
-                        <summary id="blog-summary">Read more</summary>
-                    <p>Eius saperet pri ei. Vim case erat deleniti cu, numquam signiferumque ei ius. Vel omnes mandamus consectetuer ad. Ne tollit feugait adipisci vis. Ne posse gloriatur his, vide impedit accusam cum ea.</p>
-                    <p>At nec diceret mnesarchum referrentur, quo suas noster atomorum no. Ea reque elaboraret duo. Vis diam aperiri malorum in. Adhuc dicta facilisis ea nec. In sed error movet disputationi, tibique ocurreret torquatos ne cum, ei cum tincidunt voluptatibus</p>
-                    
-                </details>
-            </div>
-        </article>
-        <br>
-        <article class="card">            
-            <div>
-                <!--sub-heading-->
-                <h3>Coder Academy</h3>                
-                published <time datetime="2020-10-14 12:00">October 14th, 2020</time>
-            </div>
-            <br>
-            <!--fig section-->
-            <figure>
-                <!--image link-->
-                <img src="../images/blog_img5.jpg" alt="picture of a laptop on the table"/>               
-                <figcaption class="figcaption"><em>Melbourne city</em></figcaption>
-            </figure>
-            <br>
-            <div>
-                <!--paragraph-->
-                <P>This is my fifth blog.This is my fifth blog.This is my fifth blog.This is my fifth blog.This is my
-                    fifth blog.This is my fifth blog.This is my fifth blog.This is my fifth blog.</P>
-                    <details>
-                        <summary id="blog-summary">Read more</summary>
-                    <p>Eius saperet pri ei. Vim case erat deleniti cu, numquam signiferumque ei ius. Vel omnes mandamus consectetuer ad. Ne tollit feugait adipisci vis. Ne posse gloriatur his, vide impedit accusam cum ea.</p>
-                    <p>At nec diceret mnesarchum referrentur, quo suas noster atomorum no. Ea reque elaboraret duo. Vis diam aperiri malorum in. Adhuc dicta facilisis ea nec. In sed error movet disputationi, tibique ocurreret torquatos ne cum, ei cum tincidunt voluptatibus</p>
-                </details>
-            </div>
-        </article>
-    </main>
-</body>
+            <article class="card">            
+                <div>
+                    <!--sub-heading-->
+                    <h3>Coder Academy</h3>                
+                    published <time datetime="2020-10-14 12:00">October 14th, 2020</time>
+                </div>
+                <br>
+                <!--fig section-->
+                <figure>
+                    <!--image link-->
+                    <img src="../images/blog_img5.jpg" alt="picture of a laptop on the table"/>               
+                    <figcaption class="figcaption"><em>Melbourne city</em></figcaption>
+                </figure>
+                <br>
+                <div>
+                    <!--paragraph-->
+                    <P>This is my fifth blog.This is my fifth blog.This is my fifth blog.This is my fifth blog.This is my
+                        fifth blog.This is my fifth blog.This is my fifth blog.This is my fifth blog.</P>
+                        <details>
+                            <summary id="blog-summary">Read more</summary>
+                        <p>Eius saperet pri ei. Vim case erat deleniti cu, numquam signiferumque ei ius. Vel omnes mandamus consectetuer ad. Ne tollit feugait adipisci vis. Ne posse gloriatur his, vide impedit accusam cum ea.</p>
+                        <p>At nec diceret mnesarchum referrentur, quo suas noster atomorum no. Ea reque elaboraret duo. Vis diam aperiri malorum in. Adhuc dicta facilisis ea nec. In sed error movet disputationi, tibique ocurreret torquatos ne cum, ei cum tincidunt voluptatibus</p>
+                    </details>
+                </div>
+            </article>
+        </main>
+    </body>
 </html>
