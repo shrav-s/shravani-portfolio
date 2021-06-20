@@ -1,100 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--link to external google font style
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Patrick+Hand&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <!--link to the stylesheet-->
-    <link rel="stylesheet" href="../style.css" />
-    <title>My Portfolio</title>
-    <!--link for social media icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-        crossorigin="anonymous" />
-    <!--contact me form-->
-    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-    <script>
-        window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
-        formbutton("create", { action: "https://formspree.io/f/meqpkzgp" })
-    </script>
-</head>
-<body>
-    <!--link to the backgorund image-->
-    <header>        
-        <nav>
-            <!--nav section-->
-            <ul class="nav-links">
-                <li><a class="nav-link" href="../index.html">Home</a></li>
-                <li><a class="nav-link" href="./about.html">About me</a></li>
-                <li><a class="nav-link" href="./experience.html">Experience</a></li>
-                <li><a class="nav-link" href="./blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>        
-        <div class="headings">
-            <!--heading-->
-            <h2>Experience </h2>
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Patrick+Hand&family=Ubuntu:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="../style.css" />
+        <title>My Portfolio</title>
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script>
+            window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+            formbutton("create", { action: "https://formspree.io/f/meqpkzgp", styles: {button:{background: "white", fill:"#036c99", bottom:"40px",right:"-20px"}} })
+        </script>
+    </head>
+    <body>
+        <header>        
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="../index.html">Home</a></li>
+                    <li><a class="nav-link" href="./about.html">About me</a></li>
+                    <li><a class="nav-link" href="./experience.html">Resume</a></li>
+                    <li><a class="nav-link" href="./blog.html">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
         <br>
-        <div> 
-            <!--link to resume-->
-            <a class="resume" href="../images/ShravaniResume.pdf">Resume here </a>
-        </div>
-        <br>
-        <br>
-        <br>
-        <section class="card-exp">
-            <div>
-                <!--sub-heading-->
-                <h3>My Education</h3>                
+         <main class="exp-box">
+            <div class="headings">
+                <h2>Skills & Resume</h2>
             </div>
             <br>
-            <!--fig section-->
-            <figure>
-                <!--image link-->
-                <img src="../images/experience_applebook.jpg" alt="shallow photography of books">
-            </figure>
-            <br>
-            <div>
-                <!--paragraph-->
-                <p>Masters degree in Business Adminisatration from Osmania University, India.</p>
-                <p>Bachelor's Degree in Commerce & Taxation</p>
-                <p>Currently studying to be a Full Stack Web Developer at Coder Academy.</p>
-                <p>Technical skills: <br>
-                    HTML, CSS, Basics of Swift, Basics of Ruby
-                </p>
+            <div class="card-exp"> 
+                <h2> Skills & tech stack: </h2>
+                <div class="exp-icon">
+                    <img src="../images/css_icon.png"/>
+                    <img src="../images/html_icon.png" />              
+                    <img src="../images/ruby_icon.png">
+                    <img src="../images/javascript_icon.png"/>
+                    <img src="../images/sass_icon.png"/>
+                    <img src="../images/bootstrap_icon.png" />    
+                    <img src="../images/github_icon.png" style= "background-color: whitesmoke; border-radius:10px"/>  
+                    <img src="../images/vs-code_icon.png" />  
+                    <img src="../images/postgresql_icon.png" />    
+                    <img src="../images/rails_icon.png" />  
+                    <img src="../images/heroku_icon.png" /> 
+                    <img src="../images/react_icon.png" />   
+                    <img src="../images/netlify_icon.png"/>  
+                </div>
+                <p>I am currentlyworking on mastering the above techs stack at Coder Academy.</p>
+                <br>
+                <h2>Check out my Work here: </h2>
+                <p class>Want to check out my works or have any Questions..?</p>
+                <div class="exp-buttons"> 
+                    <!--link to button-->
+                    <a class="button" href="./pages/blog.html">Projects </a>
+                    <!--link to resume-->
+                    <a class="button" href="../images/Shravanibutton.pdf">Resume</a>                 
+                </div>
             </div>
-            <div class="exp-icon">
+        </main>
+        <footer class="index-footer">
+            <div class="media-tags">
                 <!--a links section-->
-                <img src="../images/css_icon.png" style="border:none;"/>
-                <img src="../images/html_icon.png" style="border:none;"/>              
-                <img src="../images/ruby_icon.png" style="border:none;"/> 
+                <a href="https://www.linkedin.com/in/shravani-buvanaker-83ab4097/" target="_blank">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/shrav-s" target="_blank">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:shravani.b3@gmail.com" target="_blank">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
             </div>
-        </section>
-        <br>
-        <br>
-        <section class="card-exp">
-            <div>
-                <!--sub-heading-->
-                <h3>Work and project experience</h3>                
-            </div>
-            <br>
-            <!--fig section-->
-            <figure>
-                <!--image link-->
-                <img src="../images\experience_project.jpg" alt="mac book pro on white table">
-            </figure>
-            <br>
-            <div>
-                <!--paragraph-->
-                <p>Two years of working experience as Administration Assistant </p>
-                <p>I am currently working on my coding skills and Hoping to create some cool websites soon.</p>
-            </div>
-        </section>
-    </main>
-</body>
+            <p class="footer-copyright">&copy; 2020 Shravani Saya</p>
+          </footer>
+    </body>
 </html>
