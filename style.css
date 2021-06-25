@@ -319,7 +319,7 @@ p {
         margin: 0 6rem;
     }
     .exp-box {
-        margin: 0 10em;
+        margin: 0 6em;
     }
     .exp-button{
         margin-top:20px;
@@ -389,6 +389,14 @@ p {
     .card {
         margin-bottom: 2em;
         align-items: initial;
+        height:450px
+    }
+    .projects-box {
+        margin: 1em 5em;
+    }
+    .img-col {
+        display: inline-flex;
+        align-items: center;
     }
 }
 @media only screen and (min-width: 1500px) {
